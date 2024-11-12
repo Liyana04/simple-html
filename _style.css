@@ -192,6 +192,9 @@ ul{
     display: flex;
 }
 
+.box-4 .container p{
+    padding-bottom: 1rem;
+}
 
 @media(max-width :768px){
     .header .container{
