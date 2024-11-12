@@ -188,6 +188,11 @@ ul{
     max-width: 20px;
 }
 
+.box-4 .container{
+    display: flex;
+}
+
+
 @media(max-width :768px){
     .header .container{
         flex-direction: column;
