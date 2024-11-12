@@ -188,11 +188,11 @@ ul{
     max-width: 20px;
 }
 
-.box-4 .container{
+.box-4 .container .box{
     display: flex;
-    border-radius: 10px;
+    /* border-radius: 10px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
-    padding: 15px 20px;
+    padding: 15px 20px; */
 }
 
 .box-4 .container p{
