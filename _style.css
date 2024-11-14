@@ -54,8 +54,13 @@ ul{
     display: flex;
 }
 
+
 .navbar ul li{
     margin-left: 12px;
+}
+
+.navbar .current ul li{
+    color: orange;
 }
 
 .header{
