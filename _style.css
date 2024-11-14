@@ -42,6 +42,10 @@ ul{
     font-weight: bold;
 }
 
+.navbar .current a{
+    color: orange;
+}
+
 .navbar .container{
     /* this thing arrange horizontally */
     display: flex;
@@ -57,10 +61,6 @@ ul{
 
 .navbar ul li{
     margin-left: 12px;
-}
-
-.navbar .current ul li{
-    color: orange;
 }
 
 .header{
