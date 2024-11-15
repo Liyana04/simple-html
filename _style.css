@@ -28,6 +28,9 @@ ul{
     background: #3474e6;
     color: white;
     height: 60px;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
 }
 
 .navbar .logo{
@@ -54,6 +57,10 @@ ul{
     height: 100%;
 }
 
+.description-box{
+    justify-content: space-between;
+}
+
 .navbar ul{
     display: flex;
 }
@@ -67,6 +74,7 @@ ul{
     background-color: #0151cc;
     color: white;
     min-height: 400px;
+    height: 100vh;
 }
 
 .header h1{
