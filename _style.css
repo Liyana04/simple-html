@@ -226,22 +226,38 @@ ul{
     transform: scale(0.5); 
   }
 
-#animated-button{
-    width: 70px;
-    height: 47px;
-    background: #c96f08;
-    color: #ffffff;
-    position: relative;
+#animationButton {
+    padding: 8px;
+    border-radius: 8px;
+    border-width: 0;
+    background-color: #c1ce15;
+    cursor: pointer;
     font-weight: bold;
-    font-size: 20px;
-    padding: 10px;
-    animation: animated_div 5s 1;
-    -moz-animation: animated_div 5s 1;
-    -webkit-animation: animated_div 5s 1;
-    -o-animation: animated_div 5s 1;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
+    /* transition: background-color 0.3s ease; */
+  }
+  
+  #animationButton.clicked {
+    background-color: #e74c3c; /* Color when clicked */
+  }
+
+#animate-p{
+    color: #e74c3c;
+    animation-duration: 8s;
+    animation-name: slide-in;
+    animation-iteration-count: infinite;
 }
+
+@keyframes slide-in {
+    from {
+      translate: 150vw 0;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
 
 @media(max-width :768px){
     .header .container{
