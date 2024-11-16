@@ -227,24 +227,29 @@ ul{
   }
 
 #animationButton {
-    padding: 8px;
-    border-radius: 8px;
     border-width: 0;
-    background-color: #c1ce15;
     cursor: pointer;
-    font-weight: bold;
     /* transition: background-color 0.3s ease; */
+    padding: 15px 30px;
+    font-size: 16px;
+    transition: all 1.0s ease;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
   }
   
   #animationButton.clicked {
     background-color: #e74c3c; /* Color when clicked */
+    transform: translateX(900px) rotate(360deg); /* Move to the right and rotate */
   }
 
 #animate-p{
     color: #e74c3c;
-    animation-duration: 8s;
+    margin-top: 2rem;
+    animation-duration: 4s;
     animation-name: slide-in;
     animation-iteration-count: infinite;
+    animation-delay: 20s;
 }
 
 @keyframes slide-in {
