@@ -212,6 +212,20 @@ ul{
     padding-bottom: 1rem;
 }
 
+.zoom {
+    padding: 1rem;
+    transition: transform .2s;
+    width: 20%;
+    height: 20%;
+    margin: 0 auto;
+  }  
+
+.zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(0.5); /* Safari 3-8 */
+    transform: scale(0.5); 
+  }
+
 @media(max-width :768px){
     .header .container{
         flex-direction: column;
