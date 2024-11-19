@@ -265,6 +265,11 @@ ul{
 
 .container .service-box{
     display: flex;
+    background-color: #3498db;
+}
+
+.container .service-box .box{
+    background-color: white;
 }
 
 @keyframes slide-in {
