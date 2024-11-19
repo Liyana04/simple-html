@@ -263,6 +263,10 @@ ul{
     transition: all 0.2s ease; /* Smooth transition for expanding */
   }
 
+.container .service-box{
+    display: flex;
+}
+
 @keyframes slide-in {
     from {
       translate: 150vw 0;
