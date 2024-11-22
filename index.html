@@ -38,7 +38,29 @@
       <img src="./images/grid.JPG" alt="">
     </div>
   </header>
+<div class="logos">
+  <div class="logos-slide">
+    <img src="./logos/3m.svg" alt="3m image logo">
+    <img src="./logos/barstool-store.svg" alt="barstool logo">
+    <img src="./logos/budweiser.svg" alt="3m image logo">
+    <img src="./logos/buzzfeed.svg" alt="buzfeed logo">
+    <img src="./logos/forbes.svg" alt="forbes logo">
+    <img src="./logos/macys.svg" alt="macys logo">
+    <img src="./logos/menshealth.svg" alt="menshealth logo">
+    <img src="./logos/mrbeast.svg" alt="mrbeast logo">
+  </div>
 
+  <!-- can copy paste this div or do java script <div class="logos-slide">
+    <img src="./logos/3m.svg" alt="3m image logo">
+    <img src="./logos/barstool-store.svg" alt="barstool logo">
+    <img src="./logos/budweiser.svg" alt="3m image logo">
+    <img src="./logos/buzzfeed.svg" alt="buzfeed logo">
+    <img src="./logos/forbes.svg" alt="forbes logo">
+    <img src="./logos/macys.svg" alt="macys logo">
+    <img src="./logos/menshealth.svg" alt="menshealth logo">
+    <img src="./logos/mrbeast.svg" alt="mrbeast logo">
+  </div> -->
+</div>
   <section class="boxes">
     <div class="container">
       <div class="box">
@@ -151,5 +173,10 @@
     </ul>
   </div>
 </footer>
+
+<script>
+  var copy = document.querySelector(".logos-slide").cloneNode(true);
+  document.querySelector(".logos").appendChild(copy);
+</script>
 </body>
 </html>
