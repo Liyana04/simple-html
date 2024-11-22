@@ -203,7 +203,10 @@ ul{
 #footer{
     background-color: #6b7f9e;
     color: black;
-    padding: 20px
+    padding: 20px;
+    /* can remove this if don't need */
+    position: sticky;
+    bottom: 0;
 }
 
 #footer .logo{
@@ -301,6 +304,10 @@ ul{
 
 .container .service-box .box{
     background-color: white;
+}
+
+.contact-box .container{
+    display: flex;
 }
 
 @keyframes slide-in {
