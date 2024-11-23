@@ -161,6 +161,10 @@ ul{
     justify-content:space-between;
 }
 
+.box-2 .container .section-2 h1{
+    padding-right: 2rem;
+}
+
 .box-2 .container .left-info{
     padding-left: 12rem;
 }
