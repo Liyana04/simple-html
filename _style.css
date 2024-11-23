@@ -313,6 +313,23 @@ ul{
 .contact-box .container{
     display: flex;
 }
+.parallax{
+  /* The image used */
+  background-image: url("./images/orange.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-box{
+    padding: 20px 0;
+}
 
 @keyframes slide-in {
     from {
