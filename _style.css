@@ -264,6 +264,9 @@ ul{
     transform: scale(0.5); 
   }
 
+.box .container{
+    display: flex;
+}
 #animationButton {
     border-width: 0;
     cursor: pointer;
