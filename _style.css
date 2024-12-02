@@ -348,6 +348,9 @@ ul{
     padding: 20px 0;
 }
 
+.color-orange{
+    color: #e74c3c;
+}
 @keyframes slide-in {
     from {
       translate: 150vw 0;
