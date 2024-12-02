@@ -351,6 +351,38 @@ ul{
 .color-orange{
     color: #e74c3c;
 }
+
+.box-and-animation{
+    display: flex;
+    margin: 2rem;
+    padding: 1rem;
+    border: #cad3e0 2px dashed;
+    border-radius: 2rem;
+}
+
+.floating {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    padding-top: 1rem;
+    color: #e74c3c;
+    animation: float 3s linear infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
 @keyframes slide-in {
     from {
       translate: 150vw 0;
