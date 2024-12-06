@@ -348,6 +348,11 @@ ul{
     padding: 20px 0;
 }
 
+.container-with-padding{
+    margin: 2rem;
+    padding: 2rem;
+}
+
 .color-orange{
     color: #e74c3c;
 }
