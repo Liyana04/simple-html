@@ -374,6 +374,10 @@ ul{
     animation: float 3s linear infinite;
 }
 
+.container p{
+    padding-bottom: 2rem;
+}
+
 @keyframes float {
     0% {
         transform: translateY(0);
