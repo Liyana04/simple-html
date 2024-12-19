@@ -21,3 +21,14 @@ button.addEventListener('click', function() {
   button.style.fontSize = newSize;
   localStorage.setItem('buttonSize', newSize);
 });
+
+
+// copilot code js
+window.addEventListener('scroll', function() {
+  let parallaxElements = document.querySelectorAll('.parallax');
+  let scrollPosition = window.pageYOffset;
+
+  parallaxElements.forEach(function(elem) {
+      elem.style.backgroundPositionY = (scrollPosition * 0.5) + 'px';
+  });
+});
