@@ -19,6 +19,7 @@ ul{
 }
 
 .container{
+    display: flex;
     max-width: 1100px;
     margin: auto;
     padding: 12px 30px;
@@ -416,3 +417,28 @@ ul{
         text-align: center;
       }
 }
+  
+  .left {
+    padding: 12px;
+    flex: 1;  /* Takes up available space on the left */
+    background-color: lightblue;
+  }
+  
+  .right {
+    display: flex;
+    flex-direction: column;  /* Stacks items vertically */
+    flex: 1;  /* Takes up the remaining space */
+  }
+  
+  .top, .bottom {
+    padding: 12px;
+    flex: 1;  /* Divides the right section equally */
+  }
+  
+  .top {
+    background-color: lightcoral;
+  }
+  
+  .bottom {
+    background-color: lightgreen;
+  }
