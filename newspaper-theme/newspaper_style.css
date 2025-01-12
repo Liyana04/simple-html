@@ -1,0 +1,195 @@
+@font-face {
+    font-family: domain;
+    src: url(./domain.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    background-color: #222;
+    overflow-x: hidden;
+}
+
+#page1 {
+    height: 110vh;
+    width: 100vw;
+
+    background-color: #C4BCB3;
+    position: relative;
+    overflow: hidden;
+}
+
+#nav {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #222;
+}
+
+#nav img {
+    height: 29px;
+    width: 30%;
+}
+
+#nav h5 {
+    font-size: 20px;
+    font-weight: 100;
+    width: 30%;
+
+}
+
+#nav i {
+    width: 30%;
+    text-align: right;
+}
+
+#elems {
+    /* background-color: red; */
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+
+#elem1 {
+    width: 30%;
+    height: 100%;
+}
+
+#elem2 {
+    width: 30%;
+    height: 100%;
+    /* put the vertical line in the middle element */
+    border-right: 2px solid #acacac;
+    padding: 20px 60px;
+    text-align: center;
+    border-left: 2px solid #a5a5a5;
+    /* background-color: blue; */
+}
+
+#elem3 {
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+#elem1 #image-div {
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+#image-div img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;  /* for the hover effect */
+}
+
+#elem3 #image-div {
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#image-div:hover img {
+    scale: 1.1; /* to zoom when hover */
+}
+
+#elem1 h4 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: canopee;
+}
+
+#elem1 h4 span {
+    background-color: #B43B12;
+    color: #C4BCB3;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#elem1 p {
+    font-size: 18px;
+    font-family: domain;
+    font-weight: 100;
+    color: #656565;
+}
+
+#elem3 h4 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: canopee;
+}
+
+#elem3 h4 span {
+    background-color: #B43B12;
+    color: #C4BCB3;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#elem3 p {
+    font-size: 18px;
+    font-family: domain;
+    font-weight: 100;
+    color: #656565;
+}
+
+#elem2 h2 {
+    font-family: canopee;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+#elem2 h3 {
+    font-family: domain;
+    font-size: 20px;
+    /* background-color: red; */
+    color: #2f2f2f;
+    font-weight: 100;
+    margin: 20px 0;
+}
+
+#elem2 h6 {
+    font-family: domain;
+    font-size: 20px;
+    /* background-color: red; */
+    color: #2f2f2f;
+    font-weight: 100;
+}
+
+#page1 h1 {
+    font-size: 500px;
+    letter-spacing: -25px;
+    font-weight: 100;
+    font-family: canopee;
+    background-color: #1C1C19;
+    color: #C4BCB3;
+    line-height: 400px;
+    width: 96%;
+    margin-left: 2%;
+    padding: 0 18px;
+}
