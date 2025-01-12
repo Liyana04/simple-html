@@ -1,3 +1,8 @@
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('#main'),
+    smooth: true
+});
+
 // for newspaper theme rotation animation
 var tl = gsap.timeline()
 

@@ -36,6 +36,8 @@ html, body {
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #222;
+    /* position: sticky;
+    top: 0; */
 }
 
 #nav img {
@@ -192,4 +194,47 @@ html, body {
     width: 96%;
     margin-left: 2%;
     padding: 0 18px;
+}
+
+#page2 {
+    height: 150vh;
+    width: 100%;
+    background-color: #C4BCB3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 90px 40px;
+}
+
+#page2-left {
+    height: 100%;
+    padding-right: 50px;
+    width: 35%;
+    background-color: red;
+    border-right: 1px solid #4b4b4b;
+}
+
+#page2-left h2 {
+    font-size: 150px;
+    font-family: canopee;
+    line-height: 150px;
+    font-weight: 100;
+}
+
+#page2-left h2 span {
+    font-size: 210px;
+    font-weight: 900;
+}
+
+#page2-left img {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page2-left p {
+    font-size: 34px;
+    font-family: domain;
+    color: #2f2f2f;
+    margin-top: 20px;
 }
