@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color:black;
+    background-color:#f1f1f1
+}
+
+.container{
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+    padding: 12px 30px;
+}
+
+#navbar{
+    color: white;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    position: sticky;
+    background-color: white;
+}
+
+#navbar .container{
+    /* this thing arrange horizontally */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#logo{
+    color: #3084bb;
+    font-weight: bold;
+}
+
+#navbar ul li{
+    margin-left: 12px;
+    list-style: none;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: #3084bb;
+}
+
+#navbar a:hover{
+    color: #3084bb;
+    font-weight: bold;
+}
+
+#header{
+    /* background-color: aqua; */
+    height: 100vh;
+    padding: 4rem;
+    /* to reduce brightness */
+    background: rgba(0, 0, 0, 0.4);
+    background-image: url(https://i.pinimg.com/736x/cb/0a/6b/cb0a6bc6ee56872b83883b258f8930f7.jpg);
+    background-repeat: none;
+    background-size: 100%;
+    background-position: top;
+    
+    background-blend-mode: darken;
+}
+
+#main-header{
+    padding-top: 120px;
+}
+
+#main-header p{
+    margin-bottom: 24px;
+    color: #fff;
+}
+
+.susun{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.susun button{
+    padding: 8px;
+    border-radius: 12px;
+    border: none;
+    color: #fff;
+    background-color: #3084bb;
+    font-weight: bold;
+    margin-right: 12px;
+}
+
+.susun button:hover{
+    background-color: #fff;
+    cursor: pointer;
+    color: #3084bb;
+    transition: 0.5s;
+}
