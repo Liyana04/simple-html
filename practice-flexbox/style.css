@@ -107,3 +107,9 @@ body{
     color: #3084bb;
     transition: 0.5s;
 }
+
+.container #section1{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
