@@ -87,13 +87,16 @@ body{
     background-blend-mode: darken;
 }
 
-#main-header{
+/* #main-header{
     padding-top: 120px;
-}
+} */
 
 #main-header p{
     margin-bottom: 24px;
     color: #fff;
+    font-size: 23px;
+    /* line-height: 2px; */
+    letter-spacing: 2px;
 }
 
 .susun{
