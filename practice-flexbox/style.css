@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap'); */
+@font-face {
+    font-family: domain;
+    src: url(./MagilioRegular-2.ttf);
+}
 
 *{
     box-sizing: border-box;
@@ -7,7 +11,7 @@
 }
 
 body{
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Magilio';
     font-size: 16px;
     line-height: 1.5;
     color:black;
@@ -66,7 +70,10 @@ body{
 #header{
     /* background-color: aqua; */
     height: 100vh;
-    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 4rem; */
     /* to reduce brightness */
     background: rgba(0, 0, 0, 0.4);
     background-image: url(https://i.pinimg.com/736x/cb/0a/6b/cb0a6bc6ee56872b83883b258f8930f7.jpg);
