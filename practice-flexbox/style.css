@@ -22,7 +22,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     color:black;
-    /* background-color:#f1f1f1 */
+    /* background-color:#ddf2ff */
 }
 
 .container{
@@ -33,7 +33,7 @@ body{
 }
 
 #navbar{
-    font-family: 'magilio', sans-serif;
+    /* font-family: 'magilio', sans-serif; */
     color: white;
     height: 60px;
     position: sticky;
@@ -55,7 +55,8 @@ body{
     display: flex;
 }
 
-#logo{
+.logo{
+    font-family: 'magilio', sans-serif;
     color: #3084bb;
     font-weight: bold;
 }
@@ -191,9 +192,17 @@ body{
   }
 
 /* section3 here */
-#section3-box{
-    background-color: #3084bb;
+#section3{
+    display: grid;
+    place-items: center;
+    background-color: #98bfda;
 }
+
+#floating-img{
+    display: flex;
+    justify-content: center;
+}
+
 
 /* section4 here */
 #bucu-img{
