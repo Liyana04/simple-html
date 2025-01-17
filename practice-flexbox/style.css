@@ -129,7 +129,11 @@ body{
 
 #section1 .section1-box{
     flex: 1;
-    border: 1px solid #3084bb;
+    padding: 1em;
+}
+
+.description-box{
+    margin-top: 12px;
 }
 
 .img-container{
