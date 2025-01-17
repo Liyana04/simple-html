@@ -160,6 +160,11 @@ body{
     object-fit: cover;
 }
 
+/* section2 here */
+#section2{
+    display: flex;
+}
+
 /* Footer styles */
 .footer {
     display: flex;
