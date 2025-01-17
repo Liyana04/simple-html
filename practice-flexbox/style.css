@@ -256,6 +256,7 @@ body{
     transform: scale(1.2); /* Expand smoothly */
   }
 
+/* for different screen */
   @media screen and (max-width: 768px) {
     #main-header p{
         margin-bottom: 24px;
