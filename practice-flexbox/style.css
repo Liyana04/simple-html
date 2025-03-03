@@ -126,7 +126,7 @@ body{
 .container #section1{
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 12px;
+    gap: 12px; 
     /* align-items: center; */
 }
 
